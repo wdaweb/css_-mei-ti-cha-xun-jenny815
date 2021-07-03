@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      font-family: 'Noto Sans TC', 'Microsoft JhrngHei', sans-serif;
+      box-sizing: border-box;
+    }
+
+    .container {
+      width: 75%;
+      margin: auto;
+      padding: 20px;
+      margin: 1rem auto;
+    }
+
+
+
+    @media(max-width:575px) {
+      .container {
+        width: 100%;
+        height: 100%;
+      }
+
+      .taishan {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .taishan img {
+        width: 300px;
+        height: 300px;
+
+      }
+
+      img {
+        width: 300px;
+        height: 300px;
+      }
+
+      h2 {
+        margin-top: 20px;
+      }
+
+      p {
+        margin-bottom: 20px;
+      }
+
+      .other img {
+        padding-top: 20px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+
+    @media(min-width:576px) {
+
+      .taishan {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .taishan img {
+        width: 200px;
+        height: 200px;
+      }
+
+      hr {
+        display: none;
+      }
+
+
+      .other h2+p {
+        display: none;
+      }
+
+      .other img {
+        width: 100px;
+        height: 100px;
+      }
+
+      .bs {
+        position: absolute;
+        top: 10%;
+        left: 65%;
+      }
+
+      .sass {
+        position: absolute;
+        top: 35%;
+        left: 75%;
+      }
+
+      .vue {
+        position: absolute;
+        top: 65%;
+        left: 65%;
+      }
+
+      .css {
+        position: absolute;
+        top: 10%;
+        left: 30%;
+      }
+
+      .html1 {
+        position: absolute;
+        top: 25%;
+        left: 15%;
+      }
+
+      .js {
+        position: absolute;
+        top: 50%;
+        left: 20%;
+      }
+
+      .jq {
+        position: absolute;
+        top: 70%;
+        left: 30%;
+      }
+
+      .line1 {
+        width: 8%;
+        height: 1px;
+        background: gray;
+        transform: rotate(45deg);
+        position: absolute;
+        top: 30%;
+        left: 35%;
+      }
+
+      .line2 {
+        width: 18%;
+        height: 1px;
+        background: gray;
+        transform: rotate(15deg);
+        position: absolute;
+        top: 40%;
+        left: 23%;
+      }
+
+      .line3 {
+        width: 10%;
+        height: 1px;
+        background: gray;
+        transform: rotate(170deg);
+        position: absolute;
+        top: 55%;
+        left: 30%;
+      }
+
+      .line4 {
+        width: 3%;
+        height: 1px;
+        background: gray;
+        transform: rotate(160deg);
+        position: absolute;
+        top: 70%;
+        left: 37%;
+      }
+
+      .line5 {
+        width: 8%;
+        height: 1px;
+        background: gray;
+        transform: rotate(150deg);
+        position: absolute;
+        top: 30%;
+        left: 56%;
+      }
+
+      .line6 {
+        width: 15%;
+        height: 1px;
+        background: gray;
+        transform: rotate(170deg);
+        position: absolute;
+        top: 45%;
+        left: 58%;
+      }
+
+      .line7 {
+        width: 3%;
+        height: 1px;
+        background: gray;
+        transform: rotate(15deg);
+        position: absolute;
+        top: 68%;
+        left: 61%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="taishan">
+      <img src="./泰山.png" alt="">
+      <h1>泰山職訓局</h1>
+      <h2>從零開始的網頁設計課程</h2>
+      <p>轉職網頁開發人員　掌握就業必備職能<br>
+        由淺入深學習技術　強化職場的競爭力</p>
+    </div>
+    <hr>
+    <div class="other">
+      <div class="html1">
+        <img src="./HTML.png" alt="">
+        <h2>Html</h2>
+        <p>
+          新增之一股份有限公司，一生玄幻日韓關西，承擔想像開展還有軟體，製品宣傳暴力網頁班排名技巧而來多種也許不承擔紡織就有就要，保障你也風格，委員會遭遇收集收藏浪費知識青草湖從來沒世界盃到達學術，紡織隨後網絡報導軟體告訴我你看，生意心裡目前才會快車我覺得引進，市。
+        </p>
+      </div>
+      <hr>
+      <div class="css">
+        <img src="./css.png" alt="">
+        <h2>CSS3</h2>
+        <p>
+          新增之一股份有限公司，一生玄幻日韓關西，承擔想像開展還有軟體，製品宣傳暴力網頁班排名技巧而來多種也許不承擔紡織就有就要，保障你也風格，委員會遭遇收集收藏浪費知識青草湖從來沒世界盃到達學術，紡織隨後網絡報導軟體告訴我你看，生意心裡目前才會快車我覺得引進，市。
+        </p>
+      </div>
+      <hr>
+      <div class="js">
+        <img src="./js.png" alt="">
+        <h2>JavaScript</h2>
+        <p>
+          新增之一股份有限公司，一生玄幻日韓關西，承擔想像開展還有軟體，製品宣傳暴力網頁班排名技巧而來多種也許不承擔紡織就有就要，保障你也風格，委員會遭遇收集收藏浪費知識青草湖從來沒世界盃到達學術，紡織隨後網絡報導軟體告訴我你看，生意心裡目前才會快車我覺得引進，市。
+        </p>
+      </div>
+      <hr>
+      <div class="jq">
+        <img src="./jquery.png" alt="">
+        <h2>jQuery</h2>
+        <p>
+          新增之一股份有限公司，一生玄幻日韓關西，承擔想像開展還有軟體，製品宣傳暴力網頁班排名技巧而來多種也許不承擔紡織就有就要，保障你也風格，委員會遭遇收集收藏浪費知識青草湖從來沒世界盃到達學術，紡織隨後網絡報導軟體告訴我你看，生意心裡目前才會快車我覺得引進，市。
+        </p>
+      </div>
+      <hr>
+      <div class="vue">
+        <img src="./vue.png" alt="">
+        <h2>Vue.js</h2>
+        <p>
+          新增之一股份有限公司，一生玄幻日韓關西，承擔想像開展還有軟體，製品宣傳暴力網頁班排名技巧而來多種也許不承擔紡織就有就要，保障你也風格，委員會遭遇收集收藏浪費知識青草湖從來沒世界盃到達學術，紡織隨後網絡報導軟體告訴我你看，生意心裡目前才會快車我覺得引進，市。
+        </p>
+      </div>
+      <hr>
+      <div class="sass">
+        <img src="./sass.png" alt="">
+        <h2>Sass</h2>
+        <p>
+          新增之一股份有限公司，一生玄幻日韓關西，承擔想像開展還有軟體，製品宣傳暴力網頁班排名技巧而來多種也許不承擔紡織就有就要，保障你也風格，委員會遭遇收集收藏浪費知識青草湖從來沒世界盃到達學術，紡織隨後網絡報導軟體告訴我你看，生意心裡目前才會快車我覺得引進，市。
+        </p>
+      </div>
+      <hr>
+      <div class="bs">
+        <img src="./bootstrap.png" alt="">
+        <h2>Bootstrap</h2>
+        <p>
+          新增之一股份有限公司，一生玄幻日韓關西，承擔想像開展還有軟體，製品宣傳暴力網頁班排名技巧而來多種也許不承擔紡織就有就要，保障你也風格，委員會遭遇收集收藏浪費知識青草湖從來沒世界盃到達學術，紡織隨後網絡報導軟體告訴我你看，生意心裡目前才會快車我覺得引進，市。
+        </p>
+      </div>
+    </div>
+    <div class="line1"></div>
+    <div class="line2"></div>
+    <div class="line3"></div>
+    <div class="line4"></div>
+    <div class="line5"></div>
+    <div class="line6"></div>
+    <div class="line7"></div>
+
+
+  </div>
+</body>
+
+</html>
